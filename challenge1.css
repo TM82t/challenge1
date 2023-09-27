@@ -13,6 +13,7 @@ header {
 header .nav-list {
   height: 70px;
   width: 1024px;
+  margin: 0 auto;
 }
 
 header .nav-list-item {
@@ -30,18 +31,73 @@ header .nav-list-item-first {
   margin-right: auto;
 }
 
-main {
+.main-visual {
   width: 100%;
-  height: 640px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
 
+.main-visual-content {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.main-visual-name {
+  font-size: 64px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  color: #FAFAFA;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #fff;
+}
+
+hr {
+  size: 3px;
+  width: 70px;
+  color: #EC715F;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 90px 0;
+  background-color: #ECEFF1;
+}
+
+.portfolio-visual {
+  width: 920px;
+}
+
+.portfolio-hedding {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.portfolio-contents {
+  padding: 30px 0;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.portfolio-box
 
 footer {
+  width: 100%;
   height: 60px;
   text-align: center;
+  line-height: 60px;
   background-color: #EC715F;
 }
 
