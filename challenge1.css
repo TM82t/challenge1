@@ -74,7 +74,8 @@ hr {
 }
 
 .portfolio-visual {
-  width: 920px;
+  width: 100%;
+  text-align: center;
 }
 
 .portfolio-hedding {
@@ -91,6 +92,7 @@ hr {
   font-size: 16px;
   color: #000000;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .portfolio-box {
@@ -99,10 +101,6 @@ hr {
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
-}
-
-.portfolio-box:nth-child(odd) {
-  margin: 0 10px 10px 0;
 }
 
 .portfolio-box:last-child {
@@ -133,6 +131,54 @@ hr {
 
 .portfolio-box:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  width: 100%;
+  padding: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-visual {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-hedding {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.feature-contents {
+  padding: 30px 0;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-box {
+  width: 320px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.feature-box i {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.feature-head {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
 }
 
 footer {
