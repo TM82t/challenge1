@@ -79,7 +79,6 @@ hr {
 .profile-visual,
 .contact-visual {
   width: 100%;
-  text-align: center;
 }
 
 .portfolio-hedding,
@@ -103,6 +102,11 @@ hr {
   color: #000000;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-box {
@@ -148,7 +152,6 @@ hr {
   width: 100%;
   padding: 90px 0;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .feature-hedding {
@@ -159,6 +162,11 @@ hr {
 
 .feature-contents {
   padding: 30px 0;
+}
+
+.feature-item {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .feature-text {
@@ -177,7 +185,6 @@ hr {
 }
 
 .feature-box i {
-  display: inline-block;
   font-size: 60px;
 }
 
@@ -185,17 +192,23 @@ hr {
   font-size: 20px;
   color: #000000;
   padding: 10px 0;
+  text-align: center;
 }
 
 .profile {
   width: 100%;
   padding: 90px 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .profile-contents {
   padding-top: 30px;
+}
+
+.profile-item {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .profile-box {
@@ -226,6 +239,15 @@ hr {
 .profile-explanation {
   font-size: 16px;
   color: #000000;
+}
+
+.contact-contents {
+ padding-top: 30px
+}
+
+.contact-item {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-box {
